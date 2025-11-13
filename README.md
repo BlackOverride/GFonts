@@ -2,7 +2,7 @@
 
 A lightweight utility that helps keep your dynamically created fonts under control in Garry's Mod.
 
-This addon was originally created after noticing that some servers — especially those with many addons — repeatedly recreate the same fonts for no reason, bloating the engine's font list. By preventing duplicate font creation, this tool reduced the total number of active fonts on my setup from around **800** down to **~550**.
+This addon was originally created after noticing that some servers - especially those with many addons - repeatedly recreate the same fonts for no reason, bloating the engine's font list. By preventing duplicate font creation, this tool reduced the total number of active fonts on my setup from around **800** down to **~550**.
 
 Fewer duplicate fonts means:
 
