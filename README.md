@@ -1,7 +1,18 @@
-# GFonts
-Garry's Mod font health manager to keep sanity of your dynamically created fonts
+### Garry's Mod Font Health Manager
 
-Originally I created this as some servers with lots of addons try to create fonts over and over duplicating themselves in the engine for no reason
-For me it reduced the amount of total fonts created by the engine from 800 to ~550 ish
+A lightweight utility that helps keep your dynamically created fonts under control in Garry's Mod.
 
-This helping with the load times as it skips font creation for dupes, helps with memory mamangement of the engine as too much fonts isn't healthy in general
+This addon was originally created after noticing that some servers — especially those with many addons — repeatedly recreate the same fonts for no reason, bloating the engine's font list. By preventing duplicate font creation, this tool reduced the total number of active fonts on my setup from around **800** down to **~550**.
+
+Fewer duplicate fonts means:
+
+* **Faster load times** (skips unnecessary font creation)
+* **Better memory management** (avoids excessive font data in the engine)
+* **Improved stability** overall
+
+---
+
+Installation -
+
+Make sure to drop the folder in addons/GFonts/lua/autorun/!0_gfonts.lua
+If you change the file name it might break as it must be loaded first before everything else!
