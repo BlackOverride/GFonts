@@ -12,7 +12,8 @@ Fewer duplicate fonts means:
 
 ---
 
-Installation -
+### Installation
 
 Make sure to drop the folder in addons/GFonts/lua/autorun/!0_gfonts.lua
-If you change the file name it might break as it must be loaded first before everything else!
+
+**Important**: If you change the file name it might break as it must be loaded first before everything else!
