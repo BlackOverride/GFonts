@@ -80,8 +80,7 @@ do
     if pnlMeta and pnlMeta.SetFontInternal then
         local _originalSetFontInternal = pnlMeta.SetFontInternal
         function pnlMeta:SetFontInternal(fontName, ...)
-            local resolved = fontAliases[fontName] or fontName
-            return _originalSetFontInternal(self, resolved, ...)
+            return _originalSetFontInternal(self, fontAliases[fontName] or fontName, ...)
         end
     else
         -- In case panels aren't ready yet, defer it
