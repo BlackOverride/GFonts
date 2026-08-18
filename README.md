@@ -24,4 +24,4 @@ Make sure to drop the folder in addons/GFonts/lua/autorun/!!!!!0_gfonts.lua
 
 gfonts_status - shows the current status
 
-lua_dumpfonts - shows all currently loaded fonts in the engine
+lua_dumpfonts (vanilla command, u can run it before adding gfonts to measure) - shows all currently loaded fonts in the engine
