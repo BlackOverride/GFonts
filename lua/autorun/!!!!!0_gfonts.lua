@@ -1,5 +1,5 @@
 -- GFonts - kills duplicate font creation on clients
--- ** WARNING: dont rename this file (!0_gfonts.lua), it has to load first! **
+-- ** WARNING: dont rename this file (!!!!!0_gfonts.lua), it has to load first! **
 
 if SERVER then return end -- Dont let server load it
 
