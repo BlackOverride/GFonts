@@ -1,0 +1,9 @@
+{
+	"title"		:	"GFonts",
+	"type"		:	"tool",
+	"tags"		:	[ "build", "realism" ],
+	"ignore"	:
+	[
+        
+	]
+}
