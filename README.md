@@ -10,6 +10,8 @@ Fewer duplicate fonts means:
 * **Better memory management** (avoids excessive font data in the engine)
 * **Improved stability** overall
 
+[Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3785609875)
+
 ---
 
 ### Installation
